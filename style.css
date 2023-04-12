@@ -1,0 +1,651 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: "Museo Sans 300";
+  src: url(./fonts/font1.ttf);
+}
+@font-face {
+  font-family: "Museo Sans 500";
+  src: url(./fonts/font2.ttf);
+}
+@font-face {
+  font-family: "Museo Sans 700";
+  src: url(./fonts/font3.ttf);
+}
+@font-face {
+  font-family: "Museo Sans 900";
+  src: url(./fonts/font4.ttf);
+}
+
+.logo img {
+  position: absolute;
+  width: 3.125rem;
+  height: 3.125rem;
+  left: 42px;
+  top: 16px;
+  border-radius: 5px;
+}
+
+.logoName {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  left: 103px;
+  top: 26px;
+  font-family: "Museo Sans 900";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.col-md-8 {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 70px;
+}
+
+.col-md-8 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn {
+  position: absolute;
+  width: 259px;
+  height: 51px;
+  right: 42px;
+  top: 16px;
+  background: #030512;
+  border-radius: 4px;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+/* main */
+
+.Main-container {
+  width: 100%;
+}
+
+.Main {
+  display: flex;
+  flex-direction: row;
+}
+
+.dreamJob {
+  position: inherit;
+  width: 50% !important;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 66px;
+}
+
+.dreamJob h3 {
+  font-family: "Museo Sans 500";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #6b6b6b;
+}
+
+.bookLive {
+  margin: 0 auto;
+  position: initial;
+  border-radius: 5px;
+  padding: 58px;
+}
+
+.Mbtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.MainBtn {
+  font-size: 20px;
+  height: 8px;
+  left: 55px;
+}
+
+.button4 {
+  width: 400px;
+  height: 72px;
+  border: 3px solid #030512;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Museo Sans 500";
+}
+.button2 {
+  width: 400px;
+  height: 72px;
+  font-family: "Museo Sans 500";
+  border-radius: 5px;
+  background: #58d5e3;
+  color: #ffffff;
+  border: 1px solid #58d5e3;
+  box-shadow: 0px 4px 10px rgba(88, 213, 227, 0.25);
+  border-radius: 4px;
+}
+.text-Main {
+  padding: 50px;
+}
+.text-Main span {
+  font-family: "Museo Sans 900";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 86px;
+  color: #000000;
+}
+.text__gradient {
+  background: -webkit-linear-gradient(left, #1e66f1, #27c9db);
+  background: -o-linear-gradient(right, #1e66f1, #27c9db, #ffffff);
+  background: -moz-linear-gradient(right, #1e66f1, #27c9db, #ffffff);
+  background: linear-gradient(to right, #1e66f1, #27c9db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.CtcImg {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.CtcImg img {
+  width: 90%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.radioBtn {
+  text-align: center;
+  margin: 40px 48px 31px 20px;
+  position: initial;
+  font-weight: 650;
+  padding: 0;
+  font-family: "Museo Sans 700";
+}
+
+.call_btn {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 650;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.SubBtn {
+  margin: 30px 30px 30px 30px;
+  position: relative;
+  width: 299px;
+  height: 57px;
+  left: 50px;
+  background: #3072f2;
+  border-radius: 5px;
+}
+
+.vector_line {
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  width: 20%;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+}
+
+.col-sm-11 {
+  margin: auto;
+  font-family: "Museo Sans 900";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.form-control {
+  padding: 3.5%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.book-h {
+  height: 90%;
+}
+
+.book-h h1 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 27px;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 650;
+  font-size: 30px;
+  line-height: 36px;
+  /* left: 20px; */
+  color: #000000;
+}
+
+.book-h h3 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 17px;
+  font-family: "Museo Sans 500";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 37px;
+  left: 3px;
+  color: #000000;
+}
+
+.sub__text {
+  color: #58d5e3;
+}
+
+/* abhi banner */
+
+.banner {
+  margin: 48rem 0 0 -112rem;
+  width: 100%;
+  height: auto;
+}
+.banner img {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  height: auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* mid_section */
+
+.top_text h1 {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center !important;
+  color: #000000;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.mid_text h3 {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-family: "Museo Sans 300";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 30px;
+  text-align: center;
+  color: #616161;
+  margin-top: 20;
+}
+
+:root {
+  --cardWidth: 430px;
+  --cardHeight: 300px;
+  --cardMargin: 20px;
+}
+
+.main-section {
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  /* margin-top: 22.5%; */
+  font-weight: lighter !important;
+  justify-content: center;
+}
+
+.card {
+  font-family: "Museo Sans 500" !important;
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  margin: var(--cardMargin);
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  box-sizing: content-box;
+}
+
+.phase {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.phase__ {
+  margin-left: 25px;
+  margin-top: -20px;
+  font-size: 25px;
+}
+
+.phase_desc {
+  margin-left: 25px;
+  margin-top: 25px;
+  font-family: "Museo Sans 500";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 37px;
+  color: #000000;
+}
+
+/* footer selection */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 533px;
+  left: -1px;
+  /* top: 5867px; */
+  background: #171c34;
+}
+
+/* Acquire_logo 2 */
+
+.footerLogo img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 41px;
+  top: 41px;
+  border-radius: 5px;
+}
+
+.footerLogo span {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  left: 102px;
+  top: 54px;
+  font-family: "Museo Sans 900";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+footer .row {
+  /* width: 233px; */
+  height: 36px;
+  position: relative !important;
+  left: 146px !important;
+  top: 183px !important;
+}
+
+.col-sm-3 {
+  color: #ffffff;
+}
+
+.col-sm-3 h1 {
+  font-family: "Museo Sans 900" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.col-sm-3 ul {
+  list-style: none;
+  font-family: "Museo Sans 500";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Programs_text {
+  text-align: center;
+  line-height: 20%;
+}
+
+.Programs_text h1 {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  margin-top: 2.5%;
+  text-align: center;
+  color: #000000;
+}
+
+/* .programs_we_offer */
+
+.programs_we_offer_root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.5%;
+}
+
+.pt-6 {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.pwf_card {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  width: 500px;
+  margin-right: 2rem;
+}
+
+.pd-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pwf_top_gradient {
+  /* background: linear-gradient(117.56deg, #3072f2 32.86%, #113272 142.2%); */
+  border-radius: 6px 6px 0px 0px;
+  padding: 2rem;
+}
+
+.pwf_top_gradient h4 {
+  color: #fff;
+}
+
+/* .space_adder_above {
+  padding-top: 2rem;
+} */
+.space_adder_below {
+  padding-bottom: 1rem;
+}
+
+.pwf_top_gradient h1 {
+  color: #fff;
+}
+
+.pt-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.major_projects {
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.major_projects h1 {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+.projects_cards_root {
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pyw_card {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  width: 500px;
+  margin-right: 2rem;
+}
+
+.guided_Btn {
+  margin: 20px 170px 20px 170px;
+  padding: 0.5rem;
+  background: #58d5e3;
+  border-radius: 100px;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.building__text {
+  margin-left: 10%;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 750;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.amazon_logo {
+  position: absolute;
+
+  height: 30vh;
+  /* left: 74px;
+top: 2813px; */
+  background: url(./img/amazon-logo.png);
+}
+
+.Work_text {
+  margin-top: 2.5%;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 20%;
+}
+
+.Work_text h1 {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Work_text h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #616161;
+}
+
+/* .Companies_Btn {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding: 0.9rem;
+  background: #3072f2;
+  border-radius: 100px;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  
+
+  text-align: center;
+
+  color: #ffffff;
+} */
+
+.banner_2 img {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  height: auto;
+  /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.how_text {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center !important;
+  color: #000000;
+  justify-content: center;
+  margin-top: 22%;
+}
+
+.table__stripped {
+  padding-top: 2.5%;
+}
+
+.table__stripped tr th {
+  padding: 1.5%;
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.blog_text {
+  font-family: "Museo Sans 700";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 35px;
+  text-align: center !important;
+  color: #000000;
+  justify-content: center;
+  margin-top: 2.5%;
+}
